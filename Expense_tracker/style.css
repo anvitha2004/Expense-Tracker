@@ -1,0 +1,117 @@
+/* Background */
+body {
+    background: linear-gradient(to right, #f9f9f9, #e4f0ff);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+input,
+select,
+button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: 0.3s ease;
+}
+
+input:focus,
+select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Filter dropdown */
+.filter {
+    margin-top: 10px;
+    text-align: right;
+}
+
+.filter select {
+    padding: 8px;
+    font-size: 15px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fefefe;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Total Amount */
+.total-amount {
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+    color: #333;
+}
+
+/* Delete button */
+button.delete-btn {
+    background-color: #dc3545;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+
+button.delete-btn:hover {
+    background-color: #c82333;
+}
